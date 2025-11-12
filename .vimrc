@@ -26,6 +26,7 @@ set smartcase
 " Tabs instead of spaces
 set expandtab
 set tabstop=4
+set shiftwidth=4
 " F2 to toggle relative nunbers in normal mode
 nmap <F2> :set relativenumber!<CR>
 " Highlight search
