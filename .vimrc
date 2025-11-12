@@ -17,13 +17,16 @@ set ruler                      " Shows the current line number at the bottom-rig
 set wildmenu                   " Great command-line completion, use `<Tab>` to move
                                " around and `<CR>` to validate.
 
-" my custom settings below
+" My custom settings below
 set whichwrap+=<,>,[,]
 set mouse=a
 set number
 set ignorecase
 set smartcase
+" Tabs instead of spaces
 set expandtab
 set tabstop=4
-set relativenumber
-
+" F2 to toggle relative nunbers in normal mode
+nmap <F2> :set relativenumber!<CR>
+" Highlight search
+set hlsearch
