@@ -31,3 +31,8 @@ set shiftwidth=4
 nmap <F2> :set relativenumber!<CR>
 " Highlight search
 set hlsearch
+" Show trailing whitepsaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>

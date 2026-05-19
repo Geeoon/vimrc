@@ -3,3 +3,6 @@ They're super basic, but get the job done.
 
 [Link to download](https://raw.githubusercontent.com/Geeoon/vimrc/refs/heads/main/.vimrc)
 
+I also included my tmux config file here.
+
+[Link to download](https://raw.githubusercontent.com/Geeoon/vimrc/refs/heads/main/.tmux.conf)
